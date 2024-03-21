@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <main class="container">
+        <header class="cabecalho">
+            <img src="assets/logo_alura.svg" alt="logo_alura">
+        </header>
+        <div class="container-input">
+        <div class="input">
+            <textarea  class="codificar__input" placeholder="Digite seu texto aqui..."></textarea>
+            <p class="atencao"><img src="assets/atencao.svg" alt="atencao">Somente letras minusculas e sem acento!</p>
+        </div>
+
+
+        <div id="output">
+            <img src="assets/High quality products 1 1.svg" alt="imagem homem de lupa">
+            <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+        </div>
+        </div>
+
+        
+        <div class="buttons">
+            <div class="container-bnt">
+                <button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Felipe Matos - Alura T6 ONE</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
